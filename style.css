@@ -1,0 +1,336 @@
+body {
+  margin: 0;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.top-wrapper {
+  margin-bottom: 40px;
+  padding-top: 20px;
+  box-shadow: 0 0 16px rgba(38, 38, 38, 0.16);
+}
+
+.top {
+  display: flex;
+  flex-wrap: nowrap;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.top__logo {
+  margin-right: 120px;
+  padding-left: 10px;
+  margin-top: 15px;
+}
+
+.top__logo:hover {
+  opacity: 0.6;
+}
+
+.all {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  padding: 0;
+  margin: 0;
+  height: 40px;
+  text-align: center;
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+
+.adress-from {
+  width: 60px;
+  height: 40px;
+  color: black;
+  font-size: 16px;
+  line-height: 24px;
+  margin-right: 10px;
+}
+
+.word-beetween {
+  padding-top: 10px;
+  margin-right: 10px;
+}
+
+.adress-to {
+  width: 290px;
+  margin-right: 110px;
+  text-align: left;
+  padding-left: 30px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  background: url(images/Group.png) no-repeat scroll 10px 10px;
+}
+
+.sign-in {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-right: 16px;
+  line-height: 24px;
+  padding: 9px 25px;
+  color: black;
+}
+
+.sign-in:hover {
+  color: white;
+  background: black;
+  transition: 0.3s;
+}
+
+.register {
+  display: flex;
+  justify-content: flex-end;
+  padding: 9px 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  background: black;
+  color: white;
+  margin-right: 20px;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+.register:hover {
+  color: black;
+  background: white;
+  border: 1px solid #e0e0e0;
+  transition: 0.3s;
+}
+
+.basket {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -17px;
+}
+
+.basket:hover {
+  opacity: 0.6;
+}
+
+.container {
+  display: block;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.search-wrapper {
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid #757575;
+  opacity: 0.3;
+
+}
+
+.search-img {
+  width: 22px;
+  height: 22px;
+  padding-right: 20px;
+}
+
+.search {
+  width: 224px;
+  border: none;
+  color: #626262;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 34px;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-grow: 1;
+  min-width: 300px;
+}
+
+.card {
+  margin-top: 20px;
+  background-color: rgb(250, 248, 242);
+}
+
+.restauran-title {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 4px;
+}
+
+.wrapper-eat-title {
+  display: flex;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.eat-title {
+  font-weight: normal;
+  margin: 0;
+  font-size: 14px;
+  line-height: 21px;
+  color: #626262;
+}
+
+.circle {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #626262;
+  margin: 8px 5px 0;
+}
+
+.eat-cost {
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 21px;
+  margin: 0;
+  padding-bottom: 5px;
+}
+
+.footer-wrapper {
+  background-color: #262626;
+}
+
+.footer {
+  display: block;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-logo {
+  padding: 50px 0 40px;
+}
+
+.footer-img {
+  cursor: pointer;
+}
+
+.inform {
+  display: flex;
+  margin-top: 30px;
+}
+
+.lang {
+  display: block;
+  color: white;
+  padding-left: 40px;
+  border-radius: 2px;
+  border: none;
+  width: 227px;
+  height: 40px;
+  background: url(images/if_icon-ios7-arrow-back_211686.png) no-repeat 195px 19px, url(images/world.png) no-repeat 15px 12px, #3b3b3b;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.lang:hover {
+  opacity: 0.6;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  line-height: 40px;
+  margin: 0 120px;
+}
+
+.stores {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 330px;
+}
+
+.app-store {
+  display: block;
+  width: 137px;
+  height: 40px;
+
+  background: url(images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.png) no-repeat;
+}
+
+.google-store {
+  display: block;
+  width: 137px;
+  height: 40px;
+  background: url(images/en_badge_web_generic-cf6dad406f.png) no-repeat;
+}
+
+hr {
+  background: #fff;
+  mix-blend-mode: normal;
+  opacity: 0.4;
+}
+
+.developers {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+
+.dev-img {
+  width: 150px;
+  height: 13px;
+  cursor: pointer;
+}
+
+.dev-link {
+  color: white;
+  font-size: 11px;
+  line-height: 13px;
+  padding-bottom: 40px;
+}
+
+.link:hover {
+  opacity: 0.6;
+}
+
+.btn {
+  display: flex;
+  width: 80px;
+  height: 80px;
+  background: #59bd5a;
+  justify-content: center;
+  align-items: center;
+  margin-top: -60px;
+  border-radius: 2px;
+  z-index: 1;
+}
+
+.z2 {
+  z-index: 2;
+}
+
+.up {
+  width: 28px;
+  height: 33px;
+  border: none;
+  margin-left: 12px;
+  background: url(images/Shape.png) no-repeat, #59bd5a;
+  cursor: pointer;
+}
+
+.up:hover {
+  opacity: 0.6;
+}
